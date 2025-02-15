@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "annclassification"
+version = "0.1.0"
+description = ""
+authors = ["a2704lok <alokkumarsingh230@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python =  ">=3.10,<3.12"  # Specify the Python version
+numpy = "1.26.4"
+tensorflow-io-gcs-filesystem = "0.31.0"
+tensorflow = "^2.18.0"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+scikit-learn = "^1.6.1"
+streamlit = "^1.42.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,1 @@
+source /c/Users/Hp/AppData/Local/pypoetry/Cache/virtualenvs/annclassification-Mb81tgCp-py3.10/Scripts/activate
